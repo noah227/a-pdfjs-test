@@ -1,19 +1,7 @@
 # a-pdfjs-test
 
-## Project setup
-```
-npm install
-```
+一个使用 [PDF.js](https://www.npmjs.com/package/pdfjs-dist) 加载pdf文件的测试案例
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+核心实现：逐页加载pdf并绘制到canvas对象上
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+存在的问题：文本层对齐问题
